@@ -47,7 +47,8 @@ require 'common/php/header.php';
 <div class="kr_content_wrapper" id="<?= ID() ?>" data-lang="<?= LANG() ?>" data-lang-short="<?= SHORT_LANG() ?>">
   <div class="container">
 
-    <!-- YOUR HTML CODE GOES HERE -->
+    <h1><?= word('TXT_TITLE'); ?></h1>
+    <p><?= word('TXT_TEXT_1'); ?></p>
 
     <?php show_button_to_top() ?>
   </div>
