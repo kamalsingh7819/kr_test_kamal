@@ -1,0 +1,53 @@
+#browser-check { display: none!important; }
+
+/* Hide body in footer when using buggy popin */
+#QuickViewDialog > #wrapper.pt_error { display: none!important; }
+@media (max-width: $screen-sm-max) {
+  #header { min-height: 92px!important }
+}
+
+// FIX ITELIOS HOMEPAGE - BEGIN
+.homePage {
+  margin: 0;
+  max-width: 100% !important;
+
+  .row {
+    display: block;
+    width: auto!important;
+  }
+
+  h1 {
+    padding: 0;
+    letter-spacing: normal;
+  }
+}
+// FIX ITELIOS HOMEPAGE - END
+
+.pt_customer-service #main {
+  max-width: none;
+  padding: 0;
+}
+
+$header-is-transparent: false!default;
+@if($header-is-transparent == true) {
+  @media (min-width: $screen-sm-min) {
+    .topHeader:after, .topHeader, #header, header, #header .header-search form {
+      background-color: transparent;
+    }
+    .expan-bg-sub-menu { top: -156px; }
+    ##{$ID} { margin-top: -156px; }
+  }
+}
+
+##{$ID} {
+  a:hover, a:focus { text-decoration: none; }
+
+  font-size: 10px;
+  letter-spacing: normal;
+
+  /* show only border of text, no filling */
+  .text-contour {
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  }
+}

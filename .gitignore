@@ -1,0 +1,12 @@
+HTML/*.html
+*.zip
+
+/data/
+!/data/.keep
+
+/images_to_convert/
+!/images_to_convert/images_to_png/.keep
+
+/vendor/
+
+.DS_Store

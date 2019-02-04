@@ -1,0 +1,18 @@
+// 1 - YOU CAN DO SOME CUSTOMISATION HERE
+// $grid-gutter-width: 0px;
+// $header-is-transparent: true;
+// $page-is-full-width: true;
+
+// 2 - INCLUDE SOME SCSS FROM MODULES HERE
+@import "bootstrap_variables";
+@import "src/styles/_bootstrap-custom.scss";
+@import "common/styles/global.scss";
+@import "common/styles/global_#{$CLIENT}.scss";
+
+// 3 - HERE YOU CAN OVERRIDE STYLES FROM THE WEBSITE ( MENU, FOOTER, ... )
+
+##{$ID} {
+  clear: both;
+  // 4 - AND YOUR CSS CODE GOES HERE
+
+}

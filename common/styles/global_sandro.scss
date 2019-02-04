@@ -1,0 +1,70 @@
+$header-height: 120px;
+// $color-links-menu: #fff;
+
+#browser-check { display: none!important; }
+
+/* Hide body in footer when using buggy popin */
+#QuickViewDialog > #wrapper.pt_error {
+  display: none!important;
+}
+
+body {
+  overflow: auto;
+  overflow-x:hidden;
+}
+
+a {
+  display: inline;
+}
+
+.pt_customer-service #main {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0px;
+  background-color: #fff !important;
+}
+
+.pt_storefront #main {
+  overflow: visible;
+  z-index: 5;
+}
+
+.homePage img {
+  display: inline;
+  width: auto;
+  height: auto;
+}
+
+#wrapper {
+  padding-bottom: 0 !important;
+  @media screen and (min-width:$screen-xs-max) { margin-bottom: 115px; }
+}
+
+$header-is-transparent: false!default;
+@if($header-is-transparent == true) {
+  @media (min-width: $screen-sm-min) {
+    .wrapper-header { z-index: 10; }
+    .overlay-nav:not(.active) + #header:not(.sticky-header) {
+      &, #navigation, header, .header-search { background: transparent!important; }
+    }
+
+    @if variable-exists(color-links-menu) {
+      #primary-logo a,
+      .universes-links-desktop .switch-gender:not(:hover),
+      .universes-links-desktop .switch-gender:not(:hover) a,
+      .header-search, .header-search input,
+      .menu-utility-user a.user-account,
+      .menu-utility-user a.user-login,
+      .mini-cart-total > a:not(:hover),
+      #navigation .level-1 {
+        color: $color-links-menu;
+      }
+    }
+
+    ##{$ID} { margin-top: -$header-height; }
+  }
+}
+
+##{$ID} {
+
+}

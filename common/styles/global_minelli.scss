@@ -1,0 +1,11 @@
+.c-breadcrumbs, .c-breadcrumbs--account { display: none; }
+#wrapper #main { padding: 0; }
+
+$page-is-full-width: false!default;
+@if($page-is-full-width == true) {
+  #main { max-width: none; }
+}
+
+##{$ID} {
+
+}

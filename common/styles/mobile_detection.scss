@@ -1,0 +1,20 @@
+.visible-on-mobile-block { display: none!important; }
+body.is-ios .visible-on-mobile-block,
+body.is-android .visible-on-mobile-block {
+  display: block!important;
+}
+.visible-on-mobile-inline-block { display: none!important; }
+body.is-ios .visible-on-mobile-inline-block,
+body.is-android .visible-on-mobile-inline-block {
+  display: inline-block!important;
+}
+.visible-on-ios-block { display: none!important; }
+body.is-ios .visible-on-ios-block {
+  display: block!important;
+}
+
+body.is-mobile .hidden-on-mobile,
+body.is-ios .hidden-on-ios,
+body.is-android .hidden-on-android {
+  display: none!important;
+}

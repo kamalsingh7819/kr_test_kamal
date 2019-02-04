@@ -1,0 +1,83 @@
+##{$ID} {
+  .footerContent {
+    padding: 0;
+    display: block;
+    width: auto!important;
+
+    p {
+      font-size: 10px!important;
+      padding-left: 0!important;
+    }
+  }
+
+  .footerNewsletter {
+    margin: auto;
+    width: 100%;
+
+    &.validNews p:before {
+      content: ' ';
+    }
+
+    &--notice {
+      color: #999999;
+      font-size: 8px;
+      line-height: 14px;
+
+      a { color: inherit; text-decoration: underline; }
+    }
+  }
+
+  .ka_maje_form {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    display: inline-block;
+    border: 1px #cccccc solid;
+
+    input {
+      &, &:-webkit-autofill {
+        border: 0;
+        padding: 0;
+        height: 34px;
+        font-size: 12px;
+        line-height: 34px;
+      }
+
+      &[type=email] {
+        width: 90%;
+        margin: 0;
+        padding-left: 15px;
+        text-align: center;
+
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus {
+          -webkit-text-fill-color: #000;
+          -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+        }
+
+        &::-webkit-input-placeholder,
+        &:-moz-placeholder,
+        &::-moz-placeholder,
+        &:-ms-input-placeholder {
+          color: inherit;
+          font-style: normal;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+
+  .ka_maje_form input[type=submit] {
+    margin: 0;
+    width: 10%;
+    float: right;
+    background: url(#{$PATH_TO_IMAGES}/r_arrow.png?$staticlink$) #fff no-repeat center center;
+  }
+  span.error-message {
+    margin: auto;
+    left: 0; right: 0;
+    position: absolute;
+    padding: 10px 0;
+  }
+}
