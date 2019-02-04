@@ -50,7 +50,7 @@ require 'common/php/header.php';
     <h1><?= word('TXT_TITLE'); ?></h1>
     <p><?= word('TXT_TEXT_1'); ?></p>
     
-     <h2><a href="<?= word('URL_GOOGLE'); ?>" target="_blank">Link</a></h2>
+     <p><a href="<?= word('URL_GOOGLE'); ?>" target="_blank"><?= word('TXT_TEXT_2'); ?></a></p>
 
     <?php show_button_to_top() ?>
   </div>
