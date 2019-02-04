@@ -28,12 +28,12 @@ $STYLES[] = 'style.scss';
 
 load_words(
   'TXT',
-  '', // URL TO 'TXT' CSV GOES HERE
+  'https://docs.google.com/spreadsheets/d/e/2PACX-1vSw04z2SDch1u1J9C9Wmyr8uTlBmJvYUsHhQpZCi8_obpLJNG5g7nWRpKb6zx-OB9aIv56IZZkX6Sy0/pub?gid=0&single=true&output=csv', // URL TO 'TXT' CSV GOES HERE
   'data/_words.php'
   );
 load_words(
   'URL',
-  '', // URL TO 'URL' CSV GOES HERE
+  'https://docs.google.com/spreadsheets/d/e/2PACX-1vSw04z2SDch1u1J9C9Wmyr8uTlBmJvYUsHhQpZCi8_obpLJNG5g7nWRpKb6zx-OB9aIv56IZZkX6Sy0/pub?gid=1349220144&single=true&output=csv', // URL TO 'URL' CSV GOES HERE
   'data/_urls.php'
   );
 load_products(
