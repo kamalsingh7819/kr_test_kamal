@@ -45,25 +45,63 @@ require 'common/php/header.php';
 ?>
 
 <div class="kr_content_wrapper" id="<?= ID() ?>" data-lang="<?= LANG() ?>" data-lang-short="<?= SHORT_LANG() ?>">
-  <div class="container-fluid">
-    <div class="row banner p1-50"> <img class="img-fluid w-100" srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP@12x.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP.jpg?$staticlink$" alt="" /> </div>
+  <div class="container-fluid section-1">
+    <div class="row banner p1-50"> <img class="img-fluid w-100" srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP@12X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP.jpg?$staticlink$" alt="" /> </div>
   </div>
+  <!-- section-1 ends here-->
   
-  <div class="container">  
-    <div class="row h-100">
-      <div class="col-md-6 align-self-center">
-      <div class="text-center mx-auto">
-        <img src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_02.jpg?$staticlink$" alt="" />       
-        <p class="p1-30 h-line-break">celebrating yesterday to reinvent tomorrow, setting this symbolic turning <br /> point on course for the future. The brand plunges .</p>
-        <p class="p1-40"><a class="underline" href="<?= word('URL_GOOGLE'); ?>"><?= word('TXT_TEXT_2'); ?></a></p>
-        </div><!-- text-center-->
-      </div><!-- col-md-6-->
-      <div class="col-md-6"><img src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_03.jpg?$staticlink$" alt="" /> </div>
-    </div> <!-- row div ends here-->
-    <?php show_button_to_top() ?>
-  </div> <!-- container div ends here-->
+  <div class="container section-2">
+    <div class="row vertical-align p1-50">
+      <div class="col-md-6">
+        <div class="text-center"> <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_02@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_02.jpg?$staticlink$" alt="" />
+          <p class="p1-30 h-line-break">celebrating yesterday to reinvent tomorrow, setting this symbolic turning <br />
+            point on course for the future. The brand plunges .</p>
+          <p class="p1-40"><a class="underline" href="<?= word('URL_GOOGLE'); ?>">
+            <?= word('TXT_TEXT_2'); ?>
+            </a></p>
+        </div>
+      </div>
+      <div class="col-md-6"><img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_03@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_03.jpg?$staticlink$" alt="" /> </div>
+    </div>
+  </div>
+  <!-- section-2 ends here-->
   
+  <div class="container-fluid section-3">
+    <div class="row">
+      <div class="row">
+        <div class="col-md-8 grey-background">
+          <div class="col-md-6"> <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_04@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_04.jpg?$staticlink$" alt="" /> </div>
+          <div class="col-md-6"> <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_05@2X.jpg?$staticlink$ 2x" class="hp_img_05" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_05.jpg?$staticlink$" alt="" /> </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center"> <img src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_06.jpg?$staticlink$" alt="" />
+            <p class="p1-30"> <a class="underline" href="<?= word('URL_GOOGLE'); ?>">
+              <?= word('TXT_TEXT_2'); ?>
+              </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section-3 ends here-->
   
+  <div class="container-fluid section-4">
+    <div class="row p1-40">
+      <div class="row">
+        <div class="col-md-4"> 
+        <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_07@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_07.jpg?$staticlink$" alt="" /> 
+        <h2>Lorem ipsum, xx&euro;</h2>
+        </div>
+        
+        
+        <div class="col-md-4"> <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_08@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_08.jpg?$staticlink$" alt="" /> <h2>Lorem ipsum, xx&euro;</h2></div>
+        <div class="col-md-4"> <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_09@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_09.jpg?$staticlink$" alt="" /> <h2>Lorem ipsum, xx&euro;</h2></div>
+      </div>
+    </div>
+  </div>
+  <?php show_button_to_top() ?>
 </div>
 <?php require 'common/php/footer.php';
+
+
 
