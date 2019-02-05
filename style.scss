@@ -12,7 +12,21 @@
 // 3 - HERE YOU CAN OVERRIDE STYLES FROM THE WEBSITE ( MENU, FOOTER, ... )
 
 ##{$ID} {
-  clear: both;
-  // 4 - AND YOUR CSS CODE GOES HERE
+  clear: both;  
+
+// 4 - AND YOUR CSS CODE GOES HERE
+p{ font-size:14px; line-height:30px;}
+img{max-width:100%;}
+p.center{text-align:center;}
+.p1-30{ padding-top:30px;}
+.p1-40{ padding-top:40px;}
+.p1-50{padding-bottom:40px;}
+a.underline{ text-decoration:underline;}
+
+@media screen and (max-width: 767px) {
+.h-line-break br{ display:none;}
+}
+
+
 
 }

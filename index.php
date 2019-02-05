@@ -45,15 +45,25 @@ require 'common/php/header.php';
 ?>
 
 <div class="kr_content_wrapper" id="<?= ID() ?>" data-lang="<?= LANG() ?>" data-lang-short="<?= SHORT_LANG() ?>">
-  <div class="container">
-
-    <h1><?= word('TXT_TITLE'); ?></h1>
-    <p><?= word('TXT_TEXT_1'); ?></p>
-    
-     <p><a href="<?= word('URL_GOOGLE'); ?>" target="_blank"><?= word('TXT_TEXT_2'); ?></a></p>
-
-    <?php show_button_to_top() ?>
+  <div class="container-fluid">
+    <div class="row banner p1-50"> <img class="img-fluid w-100" srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP@12x.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP.jpg?$staticlink$" alt="" /> </div>
   </div>
+  
+  <div class="container">  
+    <div class="row h-100">
+      <div class="col-md-6 align-self-center">
+      <div class="text-center mx-auto">
+        <img src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_02.jpg?$staticlink$" alt="" />       
+        <p class="p1-30 h-line-break">celebrating yesterday to reinvent tomorrow, setting this symbolic turning <br /> point on course for the future. The brand plunges .</p>
+        <p class="p1-40"><a class="underline" href="<?= word('URL_GOOGLE'); ?>"><?= word('TXT_TEXT_2'); ?></a></p>
+        </div><!-- text-center-->
+      </div><!-- col-md-6-->
+      <div class="col-md-6"><img src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_03.jpg?$staticlink$" alt="" /> </div>
+    </div> <!-- row div ends here-->
+    <?php show_button_to_top() ?>
+  </div> <!-- container div ends here-->
+  
+  
 </div>
-
 <?php require 'common/php/footer.php';
+
