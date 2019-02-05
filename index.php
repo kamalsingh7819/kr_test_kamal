@@ -46,7 +46,7 @@ require 'common/php/header.php';
 
 <div class="kr_content_wrapper" id="<?= ID() ?>" data-lang="<?= LANG() ?>" data-lang-short="<?= SHORT_LANG() ?>">
   <div class="container-fluid section-1">
-    <div class="row banner p1-50"> <img class="img-fluid w-100" srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP.jpg?$staticlink$" alt="" /> </div>
+    <div class="row p1-50"> <img class="img-fluid w-100" srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP.jpg?$staticlink$" alt="" /> </div>
   </div>
   <!-- section-1 ends here-->
   
