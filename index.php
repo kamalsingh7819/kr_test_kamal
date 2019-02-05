@@ -52,7 +52,7 @@ require 'common/php/header.php';
   
   <div class="container section-2">
     <div class="row vertical-align p1-50">
-      <div class="col-md-6">
+      <div class="col-md-6 s2-mbl-btm-pds-30">
         <div class="text-center"> <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_02@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_02.jpg?$staticlink$" alt="" />
           <p class="p1-30 h-line-break">celebrating yesterday to reinvent tomorrow, setting this symbolic turning <br />
             point on course for the future. The brand plunges .</p>
@@ -71,9 +71,9 @@ require 'common/php/header.php';
       <div class="row">
         <div class="col-md-8 grey-background">
           <div class="col-md-6"> <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_04@2X.jpg?$staticlink$ 2x" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_04.jpg?$staticlink$" alt="" /> </div>
-          <div class="col-md-6"> <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_05@2X.jpg?$staticlink$ 2x" class="hp_img_05" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_05.jpg?$staticlink$" alt="" /> </div>
+          <div class="col-md-6 hidden-on-mobile hidden-on-tablet"> <img srcset="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_05@2X.jpg?$staticlink$ 2x" class="hp_img_05" src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_05.jpg?$staticlink$" alt="" /> </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 s2-mbl-top-mgr-40">
           <div class="text-center"> <img src="<?= PATH_TO_IMAGES();?>/W18_sneackers_HP_06.jpg?$staticlink$" alt="" />
             <p class="p1-30"> <a class="underline" href="<?= word('URL_GOOGLE'); ?>">
               <?= word('TXT_TEXT_2'); ?>
